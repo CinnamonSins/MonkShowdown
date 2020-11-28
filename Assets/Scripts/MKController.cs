@@ -14,12 +14,20 @@ public class MKController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float vertical = Input.GetAxis("Vertical");
-        float horizontal = Input.GetAxis("Horizontal");
-        Debug.Log(horizontal);
         Vector2 position = transform.position;
-        position.x = position.x + 3f * horizontal*Time.deltaTime;
-        position.y = position.y + 3f * vertical*Time.deltaTime    ;
+	if (Input.GetKeyDown(KeyCode.W)){
+	position.y = position.y + 1;
+	}
+	if (Input.GetKeyDown(KeyCode.A)){
+	position.x = position.x - 1;
+	}
+	if (Input.GetKeyDown(KeyCode.S)){
+	position.y = position.y - 1;
+	}
+	if (Input.GetKeyDown(KeyCode.D)){
+	position.x = position.x + 1;
+	}
+        
         transform.position = position;
     }
 }
