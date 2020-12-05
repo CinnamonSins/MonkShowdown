@@ -13,8 +13,11 @@ public class attack_mk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector2 position = transform.position;
+
         if (Input.GetKeyDown(KeyCode.X))
         {
+            Debug.Log("You are attacking.");
             
         }
     }

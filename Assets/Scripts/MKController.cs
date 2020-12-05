@@ -15,23 +15,22 @@ public class MKController : MonoBehaviour
     void Update()
     {
         Vector2 position = transform.position;
-	if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+	if (Input.GetKeyDown(KeyCode.W))
 	{
 	position.y = position.y + 1;
 	}
-	if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+	if (Input.GetKeyDown(KeyCode.A))
 	{
 	position.x = position.x - 1;
 	}
-	if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+	if (Input.GetKeyDown(KeyCode.S))
 	{
 	position.y = position.y - 1;
 	}
-	if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+	if (Input.GetKeyDown(KeyCode.D))
 	{
 	position.x = position.x + 1;
 	}
-        
         transform.position = position;
     }
 }
