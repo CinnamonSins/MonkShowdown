@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Man Menu.unity
     guid: b260de421e084cf41a1d820a6e922ec1
   - enabled: 1
+    path: Assets/Scenes/NLightScreen.unity
+    guid: ecb46b74204b6814f9901e814be30d38
+  - enabled: 1
     path: Assets/Scenes/ManCharacterBuilder.unity
     guid: 4c56b7d8a0044804bafc944671499483
   - enabled: 1

@@ -257,7 +257,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: acda11043f8836e49b405a64457e52cc, type: 3}
+    m_Font: {fileID: 12800000, guid: 9aaaeb38508cf36489508ef28e665c2d, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 02373f663c3e0df4d8adefb0093a29b4, type: 3}
+    m_Font: {fileID: 12800000, guid: 9aaaeb38508cf36489508ef28e665c2d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1625395267}
-        m_MethodName: nlightplus
+        m_MethodName: NlightPlus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -652,7 +652,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1625395267}
-        m_MethodName: nlightminus
+        m_MethodName: NlightMinus
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -756,7 +756,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: acda11043f8836e49b405a64457e52cc, type: 3}
+    m_Font: {fileID: 12800000, guid: 9aaaeb38508cf36489508ef28e665c2d, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -887,12 +887,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1625395262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b298dd8c96040d942a7c9abbe150e9bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b5d48d9dc3d5fe4fa9c1917f0dc5597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nlightpoints: {fileID: 1828178007}
-  nlightscore: 0
-  NlightsDone: {fileID: 2074338254}
+  NlightScore: 0
+  done: {fileID: 2074338254}
 --- !u!114 &1625395268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,7 +1028,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: acda11043f8836e49b405a64457e52cc, type: 3}
+    m_Font: {fileID: 12800000, guid: 9aaaeb38508cf36489508ef28e665c2d, type: 3}
     m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
 --- !u!222 &1828178008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1236,7 +1236,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 02373f663c3e0df4d8adefb0093a29b4, type: 3}
+    m_Font: {fileID: 12800000, guid: 9aaaeb38508cf36489508ef28e665c2d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0

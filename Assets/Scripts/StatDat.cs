@@ -10,10 +10,13 @@ public class StatDat : MonoBehaviour
     public Text agility;
     public Text intelligence;
     public Text resilience;
+    public Text hp;
+    public Button done;
     public int StrengthScore;
     public int AgilityScore;
     public int IntelligenceScore;
     public int ResilienceScore;
+    public int hpScore;
     public int StatScore = 20;
     public void StrengthPlus()
     {      
@@ -39,6 +42,10 @@ public class StatDat : MonoBehaviour
             statpoints.text = StatScore.ToString();
         }
         
+    }
+    void Start()
+    {
+        done.interactable = false;
     }
     public void AgilityPlus()
     {
@@ -104,6 +111,11 @@ public class StatDat : MonoBehaviour
             statpoints.text = "";
             StatScore -= 1;
             statpoints.text = StatScore.ToString();
+            hp = hp.GetComponent<Text>();
+            hp.text = "";
+            int HpSemiScore = 40 + 3 * ResilienceScore;
+            hpScore = nlightDat.NlightScore* HpSemiScore;
+            hp.text = hpScore.ToString();
         }
         else if (StatScore > 1 && ResilienceScore >= 5 && ResilienceScore < 8)
         {
@@ -115,7 +127,133 @@ public class StatDat : MonoBehaviour
             statpoints.text = "";
             StatScore -= 2;
             statpoints.text = StatScore.ToString();
+            hp = hp.GetComponent<Text>();
+            hp.text = "";
+            int HpSemiScore = 40 + 3 * ResilienceScore;
+            hpScore = nlightDat.NlightScore * HpSemiScore;
+            hp.text = hpScore.ToString();
         }
         
+    }
+    public void AgilityMinus()
+    {
+        if (StatScore > 0 && AgilityScore <= 5 && AgilityScore>0)
+        {
+            agility = agility.GetComponent<Text>();
+            agility.text = "";
+            AgilityScore -= 1;
+            agility.text = AgilityScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 1;
+            statpoints.text = StatScore.ToString();
+        }
+        else if (StatScore > 1 && AgilityScore >= 5 && AgilityScore <= 8)
+        {
+            agility = agility.GetComponent<Text>();
+            agility.text = "";
+            AgilityScore -= 1;
+            agility.text = AgilityScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 2;
+            statpoints.text = StatScore.ToString();
+        }
+
+    }
+    public void IntelligenceMinus()
+    {
+        if (StatScore > 0 && IntelligenceScore <= 5 && IntelligenceScore > 0)
+        {
+            intelligence = intelligence.GetComponent<Text>();
+            intelligence.text = "";
+            IntelligenceScore -= 1;
+            intelligence.text = IntelligenceScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 1;
+            statpoints.text = StatScore.ToString();
+        }
+        else if (StatScore > 1 && IntelligenceScore >= 5 && IntelligenceScore <= 8)
+        {
+            intelligence = intelligence.GetComponent<Text>();
+            intelligence.text = "";
+            IntelligenceScore -= 1;
+            intelligence.text = IntelligenceScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 2;
+            statpoints.text = StatScore.ToString();
+        }
+
+    }
+    public void ResilienceMinus()
+    {
+        if (StatScore > 0 && ResilienceScore <= 5 && ResilienceScore > 0)
+        {
+            resilience = resilience.GetComponent<Text>();
+            resilience.text = "";
+            ResilienceScore -= 1;
+            resilience.text = ResilienceScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 1;
+            statpoints.text = StatScore.ToString();
+            hp = hp.GetComponent<Text>();
+            hp.text = "";
+            int HpSemiScore = 40 + 3 * ResilienceScore;
+            hpScore = nlightDat.NlightScore * HpSemiScore;
+            hp.text = hpScore.ToString();
+        }
+        else if (StatScore > 1 && ResilienceScore >= 5 && ResilienceScore <= 8)
+        {
+            resilience = resilience.GetComponent<Text>();
+            resilience.text = "";
+            ResilienceScore -= 1;
+            resilience.text = ResilienceScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 2;
+            statpoints.text = StatScore.ToString();
+            hp = hp.GetComponent<Text>();
+            hp.text = "";
+            int HpSemiScore = 40 + 3 * ResilienceScore;
+            hpScore = nlightDat.NlightScore * HpSemiScore;
+            hp.text = hpScore.ToString();
+        }
+
+    }
+    public void StrengthMinus()
+    {
+        if (StatScore > 0 && StrengthScore <= 5 && StrengthScore > 0)
+        {
+            strength = strength.GetComponent<Text>();
+            strength.text = "";
+            StrengthScore -= 1;
+            strength.text = StrengthScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 1;
+            statpoints.text = StatScore.ToString();
+        }
+        else if (StatScore > 1 && StrengthScore >= 5 && StrengthScore <= 8)
+        {
+            strength = strength.GetComponent<Text>();
+            strength.text = "";
+            StrengthScore -= 1;
+            strength.text = StrengthScore.ToString();
+            statpoints = statpoints.GetComponent<Text>();
+            statpoints.text = "";
+            StatScore += 2;
+            statpoints.text = StatScore.ToString();
+        }
+
+    }
+    void Update()
+    {  
+        if(StatScore == 0)
+        {
+            done.interactable = true;
+        }
     }
 }
