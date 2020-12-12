@@ -2,34 +2,45 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class MKController : MonoBehaviour
 {
-    // Start is called before the first frame update,
-    void Start()
+	public SpriteRenderer spriteRenderer;
+	public Sprite newSprite;
+	public Sprite[] spriteArray;
+	// Start is called before the first frame update,
+	void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
+		spriteRenderer.sprite = newSprite;
+		spriteRenderer.sprite = spriteArray[0];
+	}
+	
+	
+	// Update is called once per frame
+	void Update()
     {
         Vector2 position = transform.position;
 	if (Input.GetKeyDown(KeyCode.W))
 	{
+	spriteRenderer.sprite = spriteArray[2];
 	position.y = position.y + 1;
 	}
 	if (Input.GetKeyDown(KeyCode.A))
 	{
-	position.x = position.x - 1;
+			spriteRenderer.sprite = spriteArray[1];
+			position.x = position.x - 1;
 	}
 	if (Input.GetKeyDown(KeyCode.S))
 	{
-	position.y = position.y - 1;
+			spriteRenderer.sprite = spriteArray[0];
+			position.y = position.y - 1;
 	}
 	if (Input.GetKeyDown(KeyCode.D))
 	{
-	position.x = position.x + 1;
+			spriteRenderer.sprite = spriteArray[3];
+			position.x = position.x + 1;
 	}
         transform.position = position;
     }
