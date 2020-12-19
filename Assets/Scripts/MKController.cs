@@ -16,8 +16,9 @@ public class MKController : MonoBehaviour
 		spriteRenderer.sprite = newSprite;
 		spriteRenderer.sprite = spriteArray[0];
 	}
-	
-	
+
+	public static float vertmove = 2.630529F;
+	public static float horimove = 1.223702F;
 	// Update is called once per frame
 	void Update()
     {
@@ -25,22 +26,23 @@ public class MKController : MonoBehaviour
 	if (Input.GetKeyDown(KeyCode.W))
 	{
 	spriteRenderer.sprite = spriteArray[2];
-	position.y = position.y + 1;
+	position.y = position.y + vertmove;
 	}
 	if (Input.GetKeyDown(KeyCode.A))
 	{
 			spriteRenderer.sprite = spriteArray[1];
-			position.x = position.x - 1;
+			position.x = position.x - horimove;
+			
 	}
 	if (Input.GetKeyDown(KeyCode.S))
 	{
 			spriteRenderer.sprite = spriteArray[0];
-			position.y = position.y - 1;
+			position.y = position.y - vertmove;
 	}
 	if (Input.GetKeyDown(KeyCode.D))
 	{
 			spriteRenderer.sprite = spriteArray[3];
-			position.x = position.x + 1;
+			position.x = position.x + horimove;
 	}
         transform.position = position;
     }
