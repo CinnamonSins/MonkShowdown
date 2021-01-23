@@ -42,10 +42,7 @@ public class MKController : MonoBehaviour
 	{
 			spriteRenderer.sprite = spriteArray[3];
 			position.x = position.x + horimove;
-			position.x = position.x - horimove;
 		}
-		
-	}
         transform.position = position;
     }
 }
