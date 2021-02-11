@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BlueBC : MonoBehaviour{
  
-    private void OnTriggerEnter2D(Collider2D other){
+   /*private void OnTriggerEnter2D(Collider2D other){
        Debug.Log("Got Hit");
-    }
+    }*/
 
 
 }
