@@ -31,27 +31,39 @@ public class MKController : MonoBehaviour
     {
         Vector2 position = transform.position;
 		if(Collided){
-			if(mostrecinp=="up"){
+			if(mostrecinp=="w"){
 				position.y = position.y - vertmove;
 				Collided=false;
 			}
-			if(mostrecinp=="left"){
+			if(mostrecinp=="a"){
 				position.x = position.x + horimove;
 				Collided=false;
 			}
-			if(mostrecinp=="down"){
+			if(mostrecinp=="s"){
 				position.y = position.y + vertmove;
 				Collided=false;
 			}
-			if(mostrecinp=="right"){
+			if(mostrecinp=="d"){
 				position.x = position.x - horimove;
+				Collided=false;
+			}
+			if(mostrecinp=="up"){
+				Collided=false;
+			}
+			if(mostrecinp=="left"){
+				Collided=false;
+			}
+			if(mostrecinp=="down"){
+				Collided=false;
+			}
+			if(mostrecinp=="right"){
 				Collided=false;
 			}
 		}
 		if (Input.GetKeyDown(KeyCode.W))
 		{
 			spriteRenderer.sprite = spriteArray[2];
-			mostrecinp ="up";
+			mostrecinp ="w";
 			spriteRenderer.enabled =false;
 			position.y = position.y + vertmove;	
 			spriteRenderer.enabled =true;
@@ -60,7 +72,7 @@ public class MKController : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.A))
 		{
 			spriteRenderer.sprite = spriteArray[1];
-			mostrecinp ="left";		
+			mostrecinp ="a";		
 			spriteRenderer.enabled =false;	
 			position.x = position.x - horimove;
 			spriteRenderer.enabled =true;
@@ -69,7 +81,7 @@ public class MKController : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.S))
 		{
 			spriteRenderer.sprite = spriteArray[0];
-			mostrecinp ="down";
+			mostrecinp ="s";
 			spriteRenderer.enabled =false;
 			position.y = position.y - vertmove;
 			spriteRenderer.enabled =true;
@@ -78,11 +90,28 @@ public class MKController : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.D))
 		{
 			spriteRenderer.sprite = spriteArray[3];
-			mostrecinp ="right";
+			mostrecinp ="d";
 			spriteRenderer.enabled =false;
 			position.x = position.x + horimove;
 			spriteRenderer.enabled =true;
 			
+		}
+		if (Input.GetKeyDown(KeyCode.UpArrow))
+		{
+			mostrecinp ="up";
+		}
+		if (Input.GetKeyDown(KeyCode.LeftArrow))
+		{
+			mostrecinp ="left";	
+		}
+		if (Input.GetKeyDown(KeyCode.DownArrow))
+		{
+			mostrecinp ="down";
+			
+		}
+		if (Input.GetKeyDown(KeyCode.RightArrow))
+		{
+			mostrecinp ="right";
 		}
 		transform.position = position;
     }

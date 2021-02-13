@@ -42,6 +42,18 @@ public class MRController : MonoBehaviour
 				position.x = position.x - horimove;
 				Collided=false;
 			}
+			if(mostrecinp=="w"){
+				Collided=false;
+			}
+			if(mostrecinp=="a"){
+				Collided=false;
+			}
+			if(mostrecinp=="s"){
+				Collided=false;
+			}
+			if(mostrecinp=="d"){
+				Collided=false;
+			}
 		}
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
@@ -78,6 +90,23 @@ public class MRController : MonoBehaviour
 			position.x = position.x + horimove;
 			spriteRenderer.enabled =true;
 			
+		}
+		if (Input.GetKeyDown(KeyCode.W))
+		{
+			mostrecinp ="w";
+		}
+		if (Input.GetKeyDown(KeyCode.A))
+		{
+			mostrecinp ="a";	
+		}
+		if (Input.GetKeyDown(KeyCode.S))
+		{
+			mostrecinp ="s";
+			
+		}
+		if (Input.GetKeyDown(KeyCode.D))
+		{
+			mostrecinp ="d"; 	
 		}
 		transform.position = position;
 	}
