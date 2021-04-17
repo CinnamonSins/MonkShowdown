@@ -11,8 +11,13 @@ public class MRController : MonoBehaviour
 	public bool Collided = false;
 	public string mostrecinp;
 	private void OnTriggerStay2D(Collider2D other){
-       Debug.Log("Red Got Hit");
 	   Collided = true;
+    }
+	IEnumerator ShowAndHide(SpriteRenderer spriteRenderer, float delay)
+    {
+        spriteRenderer.enabled =false;
+        yield return new WaitForSeconds(delay);
+        spriteRenderer.enabled =true;
     }
 	void Start()
 	{
@@ -59,36 +64,32 @@ public class MRController : MonoBehaviour
 		{
 			spriteRenderer.sprite = spriteArray[2];
 			mostrecinp ="up";
-			spriteRenderer.enabled =false;
+			StartCoroutine(ShowAndHide(spriteRenderer, 0.027f));
 			position.y = position.y + vertmove;	
-			spriteRenderer.enabled =true;
 
 		}
 		if (Input.GetKeyDown(KeyCode.LeftArrow))
 		{
 			spriteRenderer.sprite = spriteArray[1];
 			mostrecinp ="left";		
-			spriteRenderer.enabled =false;	
+			StartCoroutine(ShowAndHide(spriteRenderer, 0.027f));	
 			position.x = position.x - horimove;
-			spriteRenderer.enabled =true;
 			
 		}
 		if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			spriteRenderer.sprite = spriteArray[0];
 			mostrecinp ="down";
-			spriteRenderer.enabled =false;
+			StartCoroutine(ShowAndHide(spriteRenderer, 0.027f));
 			position.y = position.y - vertmove;
-			spriteRenderer.enabled =true;
 			
 		}
 		if (Input.GetKeyDown(KeyCode.RightArrow))
 		{
 			spriteRenderer.sprite = spriteArray[3];
 			mostrecinp ="right";
-			spriteRenderer.enabled =false;
+			StartCoroutine(ShowAndHide(spriteRenderer, 0.027f));
 			position.x = position.x + horimove;
-			spriteRenderer.enabled =true;
 			
 		}
 		if (Input.GetKeyDown(KeyCode.W))
