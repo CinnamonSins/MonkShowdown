@@ -10,6 +10,8 @@ public class attack_mk : MonoBehaviour
     public LayerMask enemylayers;
     public Text RedHP;
     public int v;
+    public static System.Random ran = new System.Random();
+    public int power = ran.Next(0, 5);
 
 
     // Update is called once per frame
@@ -17,25 +19,31 @@ public class attack_mk : MonoBehaviour
     {
         Vector2 position = transform.position;
         attackpoint.position = position;
-        Debug.Log("before if statement.");
-        if (Input.GetKeyDown(KeyCode.X))
-        {   
-            Debug.Log("you are attacking.");
-            Collider2D[] hitenemies =Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayers);
-            Debug.Log(hitenemies);
-            foreach(Collider2D enemy in hitenemies){
-                Debug.Log("We hit"+enemy.name);
-                v = int.Parse(RedHP.text);
-                v -= 10;
-                if (v > 0) { RedHP.text = v.ToString(); }
-                else RedHP.text = "0";
-                
+        if (MRController.redturn ==false)
+        {
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                Debug.Log("you are attacking.");
+                Collider2D[] hitenemies = Physics2D.OverlapCircleAll(attackpoint.position, attackrange, enemylayers);
+                Debug.Log(hitenemies);
+                foreach (Collider2D enemy in hitenemies)
+                {
+                    Debug.Log("We hit" + enemy.name);
+                    v = int.Parse(RedHP.text);
+                    v -= power;
+                    power = ran.Next(0, 5);
+                    v -= power + StatDatTwo.redstrengthScore+nlightDat.NlightScore;
+                    if (v > 0) { RedHP.text = v.ToString(); }
+                    else RedHP.text = "0";
+
+
+                }
+                MKController.movesleft = 7;
+                MRController.redturn = true;
+               
 
             }
-            Debug.Log("after the foreach");
-
         }
-        Debug.Log("After if");
     }
     void OnDrawGizmosSelected()
     {   

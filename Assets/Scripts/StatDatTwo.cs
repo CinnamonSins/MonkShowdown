@@ -12,7 +12,7 @@ public class StatDatTwo : MonoBehaviour
     public Text redresilience;
     public Text redhp;
     public Button done;
-    public int redstrengthScore;
+    public static int redstrengthScore;
     public int redagilityScore;
     public int redintelligenceScore;
     public int redresilienceScore;
@@ -137,7 +137,7 @@ public class StatDatTwo : MonoBehaviour
     }
     public void redagilityMinus()
     {
-        if (StatScore > 0 && redagilityScore <= 5 && redagilityScore>0)
+        if (redagilityScore <= 5 && redagilityScore>0)
         {
             redagility = redagility.GetComponent<Text>();
             redagility.text = "";
@@ -148,7 +148,7 @@ public class StatDatTwo : MonoBehaviour
             StatScore += 1;
             redstatpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && redagilityScore >= 5 && redagilityScore <= 8)
+        else if (redagilityScore >= 5 && redagilityScore <= 8)
         {
             redagility = redagility.GetComponent<Text>();
             redagility.text = "";
@@ -163,7 +163,7 @@ public class StatDatTwo : MonoBehaviour
     }
     public void redintelligenceMinus()
     {
-        if (StatScore > 0 && redintelligenceScore <= 5 && redintelligenceScore > 0)
+        if (redintelligenceScore <= 5 && redintelligenceScore > 0)
         {
             redintelligence = redintelligence.GetComponent<Text>();
             redintelligence.text = "";
@@ -174,7 +174,7 @@ public class StatDatTwo : MonoBehaviour
             StatScore += 1;
             redstatpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && redintelligenceScore >= 5 && redintelligenceScore <= 8)
+        else if (redintelligenceScore >= 5 && redintelligenceScore <= 8)
         {
             redintelligence = redintelligence.GetComponent<Text>();
             redintelligence.text = "";
@@ -189,7 +189,7 @@ public class StatDatTwo : MonoBehaviour
     }
     public void redresilienceMinus()
     {
-        if (StatScore > 0 && redresilienceScore <= 5 && redresilienceScore > 0)
+        if (redresilienceScore <= 5 && redresilienceScore > 0)
         {
             redresilience = redresilience.GetComponent<Text>();
             redresilience.text = "";
@@ -205,7 +205,7 @@ public class StatDatTwo : MonoBehaviour
             redhpScore = nlightDattwo.BlueNlightScore * redhpSemiScore;
             redhp.text = redhpScore.ToString();
         }
-        else if (StatScore > 1 && redresilienceScore >= 5 && redresilienceScore <= 8)
+        else if (redresilienceScore >= 5 && redresilienceScore <= 8)
         {
             redresilience = redresilience.GetComponent<Text>();
             redresilience.text = "";
@@ -225,7 +225,7 @@ public class StatDatTwo : MonoBehaviour
     }
     public void redstrengthMinus()
     {
-        if (StatScore > 0 && redstrengthScore <= 5 && redstrengthScore > 0)
+        if (redstrengthScore <= 5 && redstrengthScore > 0)
         {
             redstrength = redstrength.GetComponent<Text>();
             redstrength.text = "";
@@ -236,7 +236,7 @@ public class StatDatTwo : MonoBehaviour
             StatScore += 1;
             redstatpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && redstrengthScore >= 5 && redstrengthScore <= 8)
+        else if (redstrengthScore >= 5 && redstrengthScore <= 8)
         {
             redstrength = redstrength.GetComponent<Text>();
             redstrength.text = "";

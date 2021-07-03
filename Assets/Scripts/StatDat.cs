@@ -12,7 +12,7 @@ public class StatDat : MonoBehaviour
     public Text resilience;
     public Text hp;
     public Button done;
-    public int StrengthScore;
+    public static int StrengthScore;
     public int AgilityScore;
     public int IntelligenceScore;
     public int ResilienceScore;
@@ -131,13 +131,14 @@ public class StatDat : MonoBehaviour
             hp.text = "";
             int HpSemiScore = 40 + 3 * ResilienceScore;
             hpScore = nlightDat.NlightScore * HpSemiScore;
+            Debug.Log(hpScore);
             hp.text = hpScore.ToString();
         }
         
     }
     public void AgilityMinus()
     {
-        if (StatScore > 0 && AgilityScore <= 5 && AgilityScore>0)
+        if (AgilityScore <= 5 && AgilityScore>0)
         {
             agility = agility.GetComponent<Text>();
             agility.text = "";
@@ -148,7 +149,7 @@ public class StatDat : MonoBehaviour
             StatScore += 1;
             statpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && AgilityScore >= 5 && AgilityScore <= 8)
+        else if (AgilityScore >= 5 && AgilityScore <= 8)
         {
             agility = agility.GetComponent<Text>();
             agility.text = "";
@@ -163,7 +164,7 @@ public class StatDat : MonoBehaviour
     }
     public void IntelligenceMinus()
     {
-        if (StatScore > 0 && IntelligenceScore <= 5 && IntelligenceScore > 0)
+        if (IntelligenceScore <= 5 && IntelligenceScore > 0)
         {
             intelligence = intelligence.GetComponent<Text>();
             intelligence.text = "";
@@ -174,7 +175,7 @@ public class StatDat : MonoBehaviour
             StatScore += 1;
             statpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && IntelligenceScore >= 5 && IntelligenceScore <= 8)
+        else if (IntelligenceScore >= 5 && IntelligenceScore <= 8)
         {
             intelligence = intelligence.GetComponent<Text>();
             intelligence.text = "";
@@ -189,7 +190,7 @@ public class StatDat : MonoBehaviour
     }
     public void ResilienceMinus()
     {
-        if (StatScore > 0 && ResilienceScore <= 5 && ResilienceScore > 0)
+        if (ResilienceScore <= 5 && ResilienceScore > 0)
         {
             resilience = resilience.GetComponent<Text>();
             resilience.text = "";
@@ -205,7 +206,7 @@ public class StatDat : MonoBehaviour
             hpScore = nlightDat.NlightScore * HpSemiScore;
             hp.text = hpScore.ToString();
         }
-        else if (StatScore > 1 && ResilienceScore >= 5 && ResilienceScore <= 8)
+        else if (ResilienceScore >= 5 && ResilienceScore <= 8)
         {
             resilience = resilience.GetComponent<Text>();
             resilience.text = "";
@@ -225,7 +226,7 @@ public class StatDat : MonoBehaviour
     }
     public void StrengthMinus()
     {
-        if (StatScore > 0 && StrengthScore <= 5 && StrengthScore > 0)
+        if (StrengthScore <= 5 && StrengthScore > 0)
         {
             strength = strength.GetComponent<Text>();
             strength.text = "";
@@ -236,7 +237,7 @@ public class StatDat : MonoBehaviour
             StatScore += 1;
             statpoints.text = StatScore.ToString();
         }
-        else if (StatScore > 1 && StrengthScore >= 5 && StrengthScore <= 8)
+        else if (StrengthScore >= 5 && StrengthScore <= 8)
         {
             strength = strength.GetComponent<Text>();
             strength.text = "";
