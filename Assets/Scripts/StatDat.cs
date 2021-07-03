@@ -10,13 +10,19 @@ public class StatDat : MonoBehaviour
     public Text agility;
     public Text intelligence;
     public Text resilience;
+<<<<<<< HEAD
     public Text hp;
     public Button done;
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     public int StrengthScore;
     public int AgilityScore;
     public int IntelligenceScore;
     public int ResilienceScore;
+<<<<<<< HEAD
     public static int hpScore;
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     public int StatScore = 20;
     public void StrengthPlus()
     {      
@@ -43,10 +49,13 @@ public class StatDat : MonoBehaviour
         }
         
     }
+<<<<<<< HEAD
     void Start()
     {
         done.interactable = false;
     }
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     public void AgilityPlus()
     {
         if (StatScore > 0 && AgilityScore < 5)
@@ -111,11 +120,14 @@ public class StatDat : MonoBehaviour
             statpoints.text = "";
             StatScore -= 1;
             statpoints.text = StatScore.ToString();
+<<<<<<< HEAD
             hp = hp.GetComponent<Text>();
             hp.text = "";
             int HpSemiScore = 40 + 3 * ResilienceScore;
             hpScore = nlightDat.NlightScore* HpSemiScore;
             hp.text = hpScore.ToString();
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
         }
         else if (StatScore > 1 && ResilienceScore >= 5 && ResilienceScore < 8)
         {
@@ -127,6 +139,7 @@ public class StatDat : MonoBehaviour
             statpoints.text = "";
             StatScore -= 2;
             statpoints.text = StatScore.ToString();
+<<<<<<< HEAD
             hp = hp.GetComponent<Text>();
             hp.text = "";
             int HpSemiScore = 40 + 3 * ResilienceScore;
@@ -256,4 +269,9 @@ public class StatDat : MonoBehaviour
             done.interactable = true;
         }
     }
+=======
+        }
+        
+    }
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 }

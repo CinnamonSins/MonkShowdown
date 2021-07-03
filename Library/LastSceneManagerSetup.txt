@@ -3,3 +3,14 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+<<<<<<< HEAD
+=======
+- path: Assets/Scenes/ManCharacterBuilder.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/MainScene.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616

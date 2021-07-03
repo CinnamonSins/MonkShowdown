@@ -132,7 +132,11 @@ GameObject:
   - component: {fileID: 147676832}
   - component: {fileID: 147676834}
   - component: {fileID: 147676833}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: StatPointsRemaining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +214,11 @@ GameObject:
   - component: {fileID: 208043975}
   - component: {fileID: 208043977}
   - component: {fileID: 208043976}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +296,11 @@ GameObject:
   - component: {fileID: 354105561}
   - component: {fileID: 354105563}
   - component: {fileID: 354105562}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +378,11 @@ GameObject:
   - component: {fileID: 399763602}
   - component: {fileID: 399763604}
   - component: {fileID: 399763603}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Agility
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,6 +449,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399763601}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &417045694
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +580,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417045694}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &566223110
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +594,11 @@ GameObject:
   - component: {fileID: 566223114}
   - component: {fileID: 566223113}
   - component: {fileID: 566223112}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: PlusIntelligence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,6 +716,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566223110}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &644502687
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +847,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644502687}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &657559658
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +902,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 105.87009
+=======
+  orthographic size: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -900,7 +930,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657559658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0.2, y: 0, z: -23.51}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -917,7 +951,11 @@ GameObject:
   - component: {fileID: 676204981}
   - component: {fileID: 676204983}
   - component: {fileID: 676204982}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Resilience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -975,7 +1013,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< HEAD
   m_Text: Resillience
+=======
+  m_Text: Resilience
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!222 &676204983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -984,7 +1026,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676204980}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &814747681
+=======
+--- !u!1 &948336399
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -992,22 +1038,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 814747682}
   - component: {fileID: 814747684}
   - component: {fileID: 814747683}
   m_Layer: 0
   m_Name: HPPoints
+=======
+  - component: {fileID: 948336400}
+  - component: {fileID: 948336402}
+  - component: {fileID: 948336401}
+  m_Layer: 5
+  m_Name: Panel
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &814747682
+=======
+--- !u!224 &948336400
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 814747681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1120,6 +1179,35 @@ RectTransform:
   m_AnchorMax: {x: 1.1787533, y: 2}
   m_AnchoredPosition: {x: -49, y: -210}
   m_SizeDelta: {x: -53, y: -420}
+=======
+  m_GameObject: {fileID: 948336399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1534324889}
+  - {fileID: 1725976104}
+  - {fileID: 1640923266}
+  - {fileID: 676204981}
+  - {fileID: 399763602}
+  - {fileID: 1108027315}
+  - {fileID: 566223111}
+  - {fileID: 1227340731}
+  - {fileID: 1062891986}
+  - {fileID: 147676832}
+  - {fileID: 1629188880}
+  - {fileID: 1107835615}
+  - {fileID: 950272219}
+  - {fileID: 1974235332}
+  - {fileID: 1779780136}
+  m_Father: {fileID: 1286829327}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &948336401
 MonoBehaviour:
@@ -1169,7 +1257,11 @@ GameObject:
   - component: {fileID: 950272219}
   - component: {fileID: 950272221}
   - component: {fileID: 950272220}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: AgilityPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1248,7 +1340,11 @@ GameObject:
   - component: {fileID: 1062891989}
   - component: {fileID: 1062891988}
   - component: {fileID: 1062891987}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: PlusResilience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1377,7 +1473,11 @@ GameObject:
   - component: {fileID: 1107835615}
   - component: {fileID: 1107835617}
   - component: {fileID: 1107835616}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: IntelligencePoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1456,7 +1556,11 @@ GameObject:
   - component: {fileID: 1108027318}
   - component: {fileID: 1108027317}
   - component: {fileID: 1108027316}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: PlusStrength
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1585,7 +1689,11 @@ GameObject:
   - component: {fileID: 1121897010}
   - component: {fileID: 1121897012}
   - component: {fileID: 1121897011}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1652,6 +1760,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121897009}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1161596536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1839,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161596536}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &1227340730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1853,11 @@ GameObject:
   - component: {fileID: 1227340734}
   - component: {fileID: 1227340733}
   - component: {fileID: 1227340732}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: PlusAgility
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1860,6 +1975,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227340730}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1247714364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +2054,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247714364}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &1286829326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,10 +2069,14 @@ GameObject:
   - component: {fileID: 1286829329}
   - component: {fileID: 1286829328}
   - component: {fileID: 1286829331}
+<<<<<<< HEAD
   - component: {fileID: 1286829332}
   - component: {fileID: 1286829334}
   - component: {fileID: 1286829333}
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2058,20 +2180,30 @@ MonoBehaviour:
   agility: {fileID: 950272220}
   intelligence: {fileID: 1107835616}
   resilience: {fileID: 1974235333}
+<<<<<<< HEAD
   hp: {fileID: 814747683}
   done: {fileID: 417045696}
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   StrengthScore: 0
   AgilityScore: 0
   IntelligenceScore: 0
   ResilienceScore: 0
+<<<<<<< HEAD
   hpScore: 0
   StatScore: 20
 --- !u!114 &1286829332
 MonoBehaviour:
+=======
+  StatScore: 20
+--- !u!1 &1534324888
+GameObject:
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1286829326}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2470,6 +2602,22 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &1534324889
 RectTransform:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534324889}
+  - component: {fileID: 1534324891}
+  - component: {fileID: 1534324890}
+  m_Layer: 5
+  m_Name: BuildCharacter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1534324889
+RectTransform:
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2539,7 +2687,11 @@ GameObject:
   - component: {fileID: 1629188880}
   - component: {fileID: 1629188882}
   - component: {fileID: 1629188881}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: StrengthPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2617,7 +2769,11 @@ GameObject:
   - component: {fileID: 1640923266}
   - component: {fileID: 1640923268}
   - component: {fileID: 1640923267}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Intelligence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2640,6 +2796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -51, y: 60}
   m_SizeDelta: {x: 149.12054, y: 27.91391}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2722,19 +2879,33 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678851912
+=======
+  m_AnchoredPosition: {x: -51, y: 60}
+  m_SizeDelta: {x: 149.12054, y: 27.91391}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1640923267
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1678851910}
+=======
+  m_GameObject: {fileID: 1640923265}
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2753,14 +2924,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< HEAD
   m_Text: -1
 --- !u!222 &1678851913
+=======
+  m_Text: Intelligence
+--- !u!222 &1640923268
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1678851910}
+=======
+  m_GameObject: {fileID: 1640923265}
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_CullTransparentMesh: 0
 --- !u!1 &1725976103
 GameObject:
@@ -2773,7 +2953,11 @@ GameObject:
   - component: {fileID: 1725976104}
   - component: {fileID: 1725976106}
   - component: {fileID: 1725976105}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Strength
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2851,7 +3035,11 @@ GameObject:
   - component: {fileID: 1779780136}
   - component: {fileID: 1779780138}
   - component: {fileID: 1779780137}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: StPts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2918,6 +3106,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779780135}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1879700146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3237,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879700146}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &1895054957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3059,7 +3250,11 @@ GameObject:
   - component: {fileID: 1895054958}
   - component: {fileID: 1895054960}
   - component: {fileID: 1895054959}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3126,6 +3321,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895054957}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1952556968
 GameObject:
   m_ObjectHideFlags: 0
@@ -3204,6 +3400,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952556968}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 --- !u!1 &1974235331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,7 +3413,11 @@ GameObject:
   - component: {fileID: 1974235332}
   - component: {fileID: 1974235334}
   - component: {fileID: 1974235333}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 5
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   m_Name: ResiliencePoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3282,6 +3484,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974235331}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &2091757928
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,3 +3563,5 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091757928}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616

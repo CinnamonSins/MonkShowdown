@@ -3,8 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - enemylayers
+=======
+  tags: []
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   layers:
   - Default
   - TransparentFX
@@ -14,7 +18,11 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - redlayer
+=======
+  - 
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
   - 
   - 
   - 

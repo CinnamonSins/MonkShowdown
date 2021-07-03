@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
 
 
@@ -115,5 +116,34 @@ public class MKController : MonoBehaviour
 			mostrecinp ="right";
 		}
 		transform.position = position;
+=======
+
+public class MKController : MonoBehaviour
+{
+    // Start is called before the first frame update,
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector2 position = transform.position;
+	if (Input.GetKeyDown(KeyCode.W)){
+	position.y = position.y + 1;
+	}
+	if (Input.GetKeyDown(KeyCode.A)){
+	position.x = position.x - 1;
+	}
+	if (Input.GetKeyDown(KeyCode.S)){
+	position.y = position.y - 1;
+	}
+	if (Input.GetKeyDown(KeyCode.D)){
+	position.x = position.x + 1;
+	}
+        
+        transform.position = position;
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     }
 }

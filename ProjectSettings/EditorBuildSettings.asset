@@ -9,6 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Man Menu.unity
     guid: b260de421e084cf41a1d820a6e922ec1
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/NLightScreen.unity
     guid: ecb46b74204b6814f9901e814be30d38
   - enabled: 1
@@ -18,6 +19,11 @@ EditorBuildSettings:
     path: Assets/Scenes/ManCharacterBuildertwo.unity
     guid: 692cacab5ad3e21449b67f2c4a65349b
   - enabled: 1
+=======
+    path: Assets/Scenes/ManCharacterBuilder.unity
+    guid: 4c56b7d8a0044804bafc944671499483
+  - enabled: 1
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     path: Assets/Scenes/MainScene.unity
     guid: 28b201a84e111114e89e23914b5527a8
   m_configObjects: {}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.UI;
 
 public class attack_mk : MonoBehaviour
@@ -11,10 +12,21 @@ public class attack_mk : MonoBehaviour
     public Text RedHP;
     public int v;
 
+=======
+
+public class attack_mk : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         Vector2 position = transform.position;
         attackpoint.position = position;
         Debug.Log("before if statement.");
@@ -41,5 +53,11 @@ public class attack_mk : MonoBehaviour
     {   
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(attackpoint.position, attackrange);
+=======
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            
+        }
+>>>>>>> 1c3ffff99463cf5af1b51b7c740d7412e95f0616
     }
 }
